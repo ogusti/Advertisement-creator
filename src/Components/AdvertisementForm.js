@@ -19,7 +19,7 @@ class AdvertisementForm extends Component {
     city: "Москва",
     image: null,
     key:
-      "inputs cannot be managed like other input types, so in order to reset it we have to use tricks"
+      "file inputs cannot be managed like other input types, so in order to reset it we have to use tricks"
   };
 
   handleHeadlineChange = event => {
