@@ -53,7 +53,7 @@ class AdvertisementForm extends Component {
       phoneNumber: "",
       city: "Москва",
       key:
-        "inputs cannot be managed like other input types, so in order to reset it we have to use tricks"
+        "file inputs cannot be managed like other input types, so in order to reset it we have to use tricks"
     });
     this.props.updateDataWithNewItem(this.state);
   };
@@ -132,7 +132,7 @@ class AdvertisementForm extends Component {
                 onChange={this.imageSelectedHandler}
                 id="imageFile"
                 type="file"
-                // inputs cannot be managed like other input types, so in order to reset it we have to use tricks
+                //file inputs cannot be managed like other input types, so in order to reset it we have to use tricks
                 key={this.state.key}
                 name="imageFile"
                 accept="image/*"
