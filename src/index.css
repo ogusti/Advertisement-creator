@@ -91,7 +91,7 @@ li {
   position: relative;
   min-width: 320px;
   max-width: 600px;
-  /* word-break: break-all; */
+  word-break: break-all;
 }
 
 .image-in-card {
@@ -137,6 +137,7 @@ button {
   cursor: pointer;
   height: 40px;
   font: inherit;
+  margin-left: 56px;
 }
 
 button:hover {

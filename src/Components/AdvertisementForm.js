@@ -52,6 +52,7 @@ class AdvertisementForm extends Component {
       description: "",
       phoneNumber: "",
       city: "Москва",
+      image: "null",
       key:
         "file inputs cannot be managed like other input types, so in order to reset it we have to use tricks"
     });

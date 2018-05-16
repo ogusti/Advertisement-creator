@@ -32,17 +32,17 @@ class App extends Component {
 
   updateDataWithNewItem = value => {
     this.setState(previousState => ({
-      headlinesArray: [...previousState.headlinesArray, value.headline],
+      headlinesArray: [value.headline, ...previousState.headlinesArray],
       descriptionsArray: [
-        ...previousState.descriptionsArray,
-        value.description
+        value.description,
+        ...previousState.descriptionsArray
       ],
       phoneNumbersArray: [
-        ...previousState.phoneNumbersArray,
-        value.phoneNumber
+        value.phoneNumber,
+        ...previousState.phoneNumbersArray
       ],
-      cityArray: [...previousState.cityArray, value.city],
-      imagesArray: [...previousState.imagesArray, value.image]
+      cityArray: [value.city, ...previousState.cityArray],
+      imagesArray: [value.image, ...previousState.imagesArray]
     }));
   };
 
