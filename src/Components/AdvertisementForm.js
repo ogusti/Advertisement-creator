@@ -18,8 +18,8 @@ class AdvertisementForm extends Component {
     phoneNumber: "",
     city: "Москва",
     image: null,
-    key:
-      "file inputs cannot be managed like other input types, so in order to reset it we have to use tricks"
+    //file inputs cannot be managed like other input types, so in order to reset it we have to use tricks
+    key: ""
   };
 
   handleHeadlineChange = event => {
